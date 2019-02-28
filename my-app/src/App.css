@@ -1,3 +1,9 @@
 .App {
   text-align: center;
+  border: solid;
+  margin: 15%;
+  padding: 15%;
+  border-radius: 170px;
+  background-color: darkslategray;
+  color: white;
 }

@@ -4,15 +4,19 @@ import Person from './Components/Person';
 
 class App extends Component {
   state = {
-    name: 'Philippe'
+    name: 'Philippe',
+    age: '40',
+    city: 'San Diego',
+    st: 'California'
+
   }
   render() {
     return (
       <div className="App">
-        <Person name={this.state.name} />
-        <Person name={this.state.name} />
-        <Person name={this.state.name} />
-        <Person name={this.state.name} />
+        <Person name={this.state.name}
+          age={this.state.age}
+          city={this.state.city}
+          st={this.state.st} />
       </div>
     );
   }
